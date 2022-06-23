@@ -3,25 +3,28 @@ import java.util.*;
 public class Pessoa {
 
     private Integer id;
+
     private String Nome;
 
-    private Integer getId() {
+    public Integer getId() {
         return id;
     }
 
-    private String setId(Integer id){
-        this.id = 
+    public void setId(Integer id) {
+        this.id = id;
+    }
 
-
-    private String getNome(
+    public String getNome() {
         return Nome;
-    )
     }
 
-    private Integer getNome() {
-        return null;
+    public Pessoa(Integer id, String nome) {
+        this.id = id;
+        Nome = nome;
     }
-    
+
+    public void setNome(String nome) {
+        Nome = nome;
+    }
+
 }
-
-
